@@ -5,11 +5,9 @@ Home: https://github.com/awslabs/aws-c-event-stream
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/aws-c-event-stream-feedstock/blob/master/LICENSE.txt)
 
 Summary: C99 implementation of the vnd.amazon.eventstream content-type.
-
-
 
 Current build status
 ====================
