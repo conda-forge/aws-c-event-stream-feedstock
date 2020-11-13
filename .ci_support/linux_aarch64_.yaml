@@ -3,11 +3,11 @@ BUILD:
 aws_c_common:
 - 0.4.59
 aws_checksums:
-- 0.1.9
+- 0.1.10
 c_compiler:
 - gcc
 c_compiler_version:
-- '7.5'
+- '7'
 cdt_arch:
 - aarch64
 cdt_name:
@@ -19,8 +19,11 @@ channel_targets:
 cxx_compiler:
 - gxx
 cxx_compiler_version:
-- '7.5'
+- '7'
 docker_image:
-- condaforge/linux-anvil-aarch64
+- quay.io/condaforge/linux-anvil-aarch64
 target_platform:
 - linux-aarch64
+zip_keys:
+- - c_compiler_version
+  - cxx_compiler_version
