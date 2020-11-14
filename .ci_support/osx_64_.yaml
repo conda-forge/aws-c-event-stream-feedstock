@@ -3,7 +3,7 @@ MACOSX_DEPLOYMENT_TARGET:
 aws_c_common:
 - 0.4.59
 aws_checksums:
-- 0.1.9
+- 0.1.10
 c_compiler:
 - clang
 c_compiler_version:
@@ -20,3 +20,6 @@ macos_machine:
 - x86_64-apple-darwin13.4.0
 target_platform:
 - osx-64
+zip_keys:
+- - c_compiler_version
+  - cxx_compiler_version
