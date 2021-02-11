@@ -1,5 +1,5 @@
 aws_c_common:
-- 0.4.66
+- 0.4.67
 aws_checksums:
 - 0.1.11
 c_compiler:
