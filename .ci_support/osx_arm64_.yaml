@@ -3,13 +3,13 @@ MACOSX_DEPLOYMENT_TARGET:
 aws_c_common:
 - 0.6.19
 aws_c_io:
-- 0.10.18
+- 0.10.19
 aws_checksums:
 - 0.1.12
 c_compiler:
 - clang
 c_compiler_version:
-- '11'
+- '12'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -17,7 +17,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '11'
+- '12'
 macos_machine:
 - arm64-apple-darwin20.0.0
 target_platform:
