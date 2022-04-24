@@ -4,5 +4,5 @@ __migrator:
   migration_number: 1
   automerge: true
 aws_c_io:
-- 0.10.21
-migrator_ts: 1649922423.0612082
+- 0.10.22
+migrator_ts: 1650515183.322741
