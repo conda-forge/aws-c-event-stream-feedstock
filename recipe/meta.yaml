@@ -10,7 +10,7 @@ source:
   sha256: 920865e8729f7dc70d2d972e7e779fcb241c997573874b2a512b554fc4360211
 
 build:
-  number: 1
+  number: 2
   run_exports:
     - {{ pin_subpackage("aws-c-event-stream", max_pin="x.x.x") }}
 
