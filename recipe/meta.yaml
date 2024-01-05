@@ -1,5 +1,5 @@
 {% set name = "aws-c-event-stream" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/awslabs/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 657ef66b00e330f36a7a7cceeffcb5aa269474fe285d5b2dc322881f4524f455
+  sha256: f8915fba57c86148f8df4c303ca6f31de6c23375de554ba8d6f9aef2a980e93e
 
 build:
   number: 0
