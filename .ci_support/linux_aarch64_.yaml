@@ -3,13 +3,17 @@ BUILD:
 aws_c_common:
 - 0.9.14
 aws_c_io:
-- 0.14.6
+- 0.14.7
 aws_checksums:
 - 0.1.18
 c_compiler:
 - gcc
 c_compiler_version:
 - '12'
+c_stdlib:
+- sysroot
+c_stdlib_version:
+- '2.17'
 cdt_arch:
 - aarch64
 cdt_name:
@@ -29,3 +33,5 @@ target_platform:
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
+- - c_stdlib_version
+  - cdt_name
