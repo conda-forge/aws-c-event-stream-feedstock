@@ -5,13 +5,13 @@ MACOSX_SDK_VERSION:
 aws_c_common:
 - 0.10.0
 aws_c_io:
-- 0.15.0
+- 0.15.1
 aws_checksums:
 - 0.2.0
 c_compiler:
 - clang
 c_compiler_version:
-- '17'
+- '18'
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -23,7 +23,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '17'
+- '18'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 target_platform:
