@@ -13,7 +13,7 @@ source:
   sha256: cef8b78e362836d15514110fb43a0a0c7a86b0a210d5fe25fd248a82027a7272
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -32,10 +32,9 @@ requirements:
 tests:
   - script:
       - if: unix
-        then: test -f $PREFIX/lib/libaws-c-event-stream${SHLIB_EXT}
-      - if: unix
-        then: test -f $PREFIX/include/aws/event-stream/event_stream.h
-
+        then:
+          - test -f $PREFIX/lib/libaws-c-event-stream${SHLIB_EXT}
+          - test -f $PREFIX/include/aws/event-stream/event_stream.h
 about:
   license: Apache-2.0
   license_file: LICENSE
