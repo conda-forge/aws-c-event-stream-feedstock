@@ -9,6 +9,8 @@ Package license: Apache-2.0
 
 Summary: C99 implementation of the vnd.amazon.eventstream content-type.
 
+Development: https://github.com/awslabs/aws-c-event-stream
+
 Current build status
 ====================
 
