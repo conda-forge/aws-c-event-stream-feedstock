@@ -35,6 +35,9 @@ tests:
         then:
           - test -f $PREFIX/lib/libaws-c-event-stream${SHLIB_EXT}
           - test -f $PREFIX/include/aws/event-stream/event_stream.h
+        else:
+          - if not exist %LIBRARY_BIN%\aws-c-event-stream.dll exit 1
+          - if not exist %LIBRARY_INC%\aws\event-stream\event_stream.h exit 1
 about:
   license: Apache-2.0
   license_file: LICENSE
