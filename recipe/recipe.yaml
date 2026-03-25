@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aws-c-event-stream
-  version: "0.6.0"
+  version: "0.7.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/awslabs/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: af3cd291d831b5fd65f789b7b9d34d856c6a3a5f6f5eb03bc23cffd1792d25e9
+  sha256: 88835b4c78462547917f622fd9dda45c991b7e356d9c07e2f0537d4d97fbd4fb
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   build:
