@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aws-c-event-stream
-  version: "0.7.2"
+  version: "1.0.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/awslabs/${{ name }}/archive/v${{ version }}.tar.gz
-  sha256: 5245179ea6349f3d21ce8c30cbd2b5c831673d9098235c2680e43c60fd6e6e30
+  sha256: c3817ab04bf9c70fa3582a31243666a9a643ebe45f121f58d5fef5ff4787f8e0
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - aws-c-io
     - aws-checksums
   run_exports:
-    - ${{ pin_subpackage("aws-c-event-stream", upper_bound="x.x.x") }}
+    - ${{ pin_subpackage("aws-c-event-stream", upper_bound="x.x") }}
 
 tests:
   - script:
